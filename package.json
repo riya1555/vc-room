@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A video call application made with [React.js](https://reactjs.org/) + [Firebase](https://firebase.google.com/) + [WebRTC](https://webrtc.org/)",
   "main": "index.js",
+  "type":"module",
   "engines": {
     "node": "16.x"
   },

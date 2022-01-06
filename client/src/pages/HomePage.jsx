@@ -225,7 +225,7 @@ const HomePage = () => {
       </div>
       <div className={classes.footer}>
         <Typography variant="body1" color="textSecondary">
-          Made With ❤️ by komal yadav 
+          Made With ❤️ by Nikhil Gupta 
         </Typography>
         <div className={classes.footerLinks}>
           <div>

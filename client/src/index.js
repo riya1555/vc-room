@@ -11,7 +11,7 @@ import { store } from "./app/store";
 import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
 ReactDOM.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
       <ThemeProvider theme={theme}>
         <CssBaseline />
@@ -19,8 +19,8 @@ ReactDOM.render(
           <App />
         </Provider>
       </ThemeProvider>
-    </BrowserRouter>
-  </React.StrictMode>,
+    </BrowserRouter>,
+  // </React.StrictMode>,
   document.getElementById("root")
 );
 
